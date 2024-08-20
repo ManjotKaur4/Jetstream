@@ -1,0 +1,317 @@
+section.section-main-section {
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.container.main-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.row.centered {
+    justify-content: center !important;
+}
+
+section.blog-post {
+    margin-bottom: 30px;
+}
+
+.image {
+    position: relative;
+    display: block;
+    margin-bottom: 28px;
+    max-height: 700px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+img.section-img {
+    margin: 0px 0 0px 0;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.description {
+    font-family: 'Barlow Condensed';
+    display: block;
+    margin: 64px 0 16px;
+    background-position: 0 100%;
+    text-transform: none;
+    color: #1e2242;
+    font-size: 14px;
+    line-height: 1.8em;
+    text-align: left;
+}
+
+h3.section-main-h3 {
+    position: relative;
+    display: block;
+    margin: 64px 0 16px;
+    text-transform: none;
+    /* width: max-content; */
+    /* width: 500px; */
+}
+
+/* .inner-page.margin-default {
+    padding-top: 100px;
+    padding-bottom: 100px;
+} */
+
+h3.section-main-h3 {
+    visibility: visible;
+    transform: scale(1);
+    opacity: 1;
+    color: #1e2242;
+    line-height: 1.2em;
+    transition: all 0.3s ease 0s;
+    z-index: 3;
+    position: relative;
+    /* margin: 0; */
+    font-family: var(--font-headers), serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: left;
+}
+
+span.section-main-h3-span {
+    color: #dd9933;
+}
+
+.p-content-wrapper {
+    font-size: 14px !important;
+    line-height: 1.8em;
+    font-family: 'Merriweather', sans-serif;
+    text-align: left;
+    color: #1e2242b3;
+}
+
+p.section-main-p {
+    font-size: 14px;
+    line-height: 1.8em;
+    font-family: 'Merriweather', sans-serif;
+    text-align: left;
+    color: rgba(30, 34, 66, .7);
+}
+
+.row.position-setting {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+img.img-fluid.img-thumbnail.rounded-circle {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+    border: none;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+ul.section-main-ul {
+    font-size: 14px;
+    line-height: 1.8em;
+    font-family: 'Merriweather', sans-serif;
+    color: rgba(30, 34, 66, .7);
+}
+
+li.section-main-ul-li {
+    text-align: left;
+    margin-bottom: 3%;
+}
+
+a.mail-link-href {
+    color: var(--main) !important;
+    text-decoration: none !important;
+    font-size: 14px;
+}
+
+.row.form-section {
+    width: 107%;
+}
+
+/* form css  */
+input[type="hidden"] {
+    width: 100%;
+    font-size: 14px;
+    display: block;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: normal;
+    font-weight: 400;
+    padding: 20px 26px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 64px;
+    background-clip: padding-box;
+    font-family: var(--font-main), sans-serif;
+    transition: all 0.3s ease;
+}
+
+form {
+    text-align: left;
+    padding: 45px 45px 25px;
+    border-radius: 12px;
+    background-clip: padding-box;
+    position: relative;
+}
+
+.mb-3 {
+    font-size: 14px;
+    line-height: 1.8em;
+    font-family: 'Merriweather', sans-serif;
+    margin-bottom: 30px;
+}
+
+label.form-label {
+    text-align: left;
+    display: block;
+    font-size: 14px;
+    padding-left: 15px;
+    margin-bottom: -2px;
+    opacity: 0.75;
+    zoom: 1;
+}
+
+input#your-name {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 100%;
+    font-size: 14px;
+    display: block;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    padding: 20px 26px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 64px;
+    background-clip: padding-box;
+    font-family: var(--font-main), sans-serif;
+    transition: all 0.3s ease;
+}
+
+input#your-email {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 100%;
+    font-size: 14px;
+    display: block;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    padding: 20px 26px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 64px;
+    background-clip: padding-box;
+    font-family: var(--font-main), sans-serif;
+    transition: all 0.3s ease;
+}
+
+input#resume-profile {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 100%;
+    font-size: 14px;
+    display: block;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    padding: 20px 26px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 64px;
+    background-clip: padding-box;
+    font-family: var(--font-main), sans-serif;
+    transition: all 0.3s ease;
+}
+
+input#your-file {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 100%;
+    font-size: 14px;
+    display: block;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    padding: 20px 26px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 64px;
+    background-clip: padding-box;
+    font-family: var(--font-main), sans-serif;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+button.btn.btn-primary {
+    border-radius: 64px;
+    font-family: var(--font-headers), serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 18px 40px 22px;
+    min-width: 230px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    border: 0;
+    background-clip: border-box !important;
+    transition: background 0.3s, color 0.3s !important;
+    color: var(--black);
+    transform: scale(1);
+    background-color: var(--main);
+}
+
+.btn-position-set {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+img.figure-img.img-fluid.rounded {
+    border-radius: 12px !important;
+    background-clip: padding-box;
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+/* responcive form css  */
+
+@media screen and (max-width:768px) {
+    .container.main-wrapper {
+        width: fit-content;
+        padding: 0;
+        margin: 0;
+    }
+    img.section-img {
+        width: -webkit-fill-available;
+    }
+    
+}
+
+.ltx-footer-wrapper {
+    background-color: #1E1F2D;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../images/footer/footer-bg.png) !important;
+}
